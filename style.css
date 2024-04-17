@@ -93,3 +93,7 @@ body {
     color: var(--verde);
     text-transform: uppercase;
 }
+.contador{
+    font-size: 50px;
+    align-items: center;
+}
