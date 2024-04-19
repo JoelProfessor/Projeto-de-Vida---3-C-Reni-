@@ -30,7 +30,7 @@ contadores[0].textContent = calculaTempo(tempos[0]);
 
 function atualizaCronometro(){
     for (let i=0; i<contadores.length;i++){
-        contadores[i].textContent = calculaTempo(tempos[i]);   
+        //contadores[i].textContent = calculaTempo(tempos[i]);   
     }
 }
 function comecaCronometro(){
