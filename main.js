@@ -26,6 +26,7 @@ const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
 let tempoAtual = new Date();
 
+
 function atualizaCronometro(){ 
     for (let i=0; i<contadores.length;i++){
         document.getElementById("dias"+i).textContent = calculaTempo(tempos[i])[0];
@@ -57,6 +58,6 @@ function calculaTempo(tempoObjetivo) {
     if (tempoFinal > 0){
         return [dias,horas,minutos,segundos]
     } else {
-        return [0,0,0,0];
+        return "ZERO";
     }
 }
